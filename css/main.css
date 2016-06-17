@@ -126,6 +126,38 @@ section {
 }
 
 
+section2 {
+  padding: 20px 0;
+}
+
+.heading {
+  padding-bottom:20px;
+}
+
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999999;
+  background: #fff;
+}
+
+.preloader > i {
+  position: absolute;
+  font-size: 36px;
+  line-height: 36px;
+  top: 50%;
+  left: 50%;
+  height: 36px;
+  width: 36px;
+  margin-top: -15px;
+  margin-left: -15px;
+  display: inline-block;
+}
+
+
 /*************************
 ********Home CSS**********
 **************************/
@@ -323,7 +355,7 @@ section {
 ********About CSS*******
 **************************/
 #about-us {
-  background-image: url(../images/about-bg.jpg);
+  background-image: url(../images/microscope.jpg);
   padding: 60px 0;
 }
 
@@ -659,7 +691,7 @@ section {
 ********Twitter CSS*******
 **************************/
 #twitter {
-  background-image: url(../images/twitter-bg.jpg);
+  background-image: url(../images/lbback.jpg);
 }
 
 #twitter > div {
@@ -860,7 +892,7 @@ section {
 }
 
 #contact-us {
-  background-image:url(../images/contact-bg.jpg);
+  background-image:url(../images/lbback.jpg);
   padding-bottom: 90px; 
 }
 
